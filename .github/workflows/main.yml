@@ -1,8 +1,8 @@
-name: release-tag
+name: tests
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - '**'
 
 env:
   GOPATH: /go_path
