@@ -4,9 +4,9 @@ on:
     branches:
       - '**'
 
-env:
-  GOPATH: /go_path
-  GOCACHE: /go_cache
+# env:
+#   GOPATH: /go_path
+#   GOCACHE: /go_cache
 
 jobs:
   lint:
